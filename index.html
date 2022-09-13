@@ -21,6 +21,9 @@
   <div class="container">
 
     <!-- nav bar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a class="navbar-brand" href="https://github.com/OscarD79/Plotly_Deployment">Link to GitHub Repository</a>
+    </nav>    
 
     <!-- jumbotron -->
     <section class="jumbotron_section"> 
@@ -28,7 +31,9 @@
         <div class="col-md-12 jumbotron text-center">
           <h1>Belly Button Biodiversity Dashboard</h1>
           <p>Use the interactive charts below to explore the dataset</p>
-      </div>
+        </div>
+          <!-- add more info about the project -->
+          <p>This is a dashboard that allows its user to review data related to the bacteria samples used to create the flavor of Improbable Beef</p>
       </div>
     </section>
  
@@ -37,7 +42,7 @@
     <div class="row">
 
     <!-- pulldown menu and metadata -->
-    <div class="col-md-2">
+    <div class="col-md-3">
 
       <!-- pulldown menu -->
       <div class="well">
@@ -51,6 +56,7 @@
           <h3 class="panel-title">Demographic Info</h3>
         </div>
         <div id="sample-metadata" class="panel-body"></div>
+        <div class="panel-footer">Subjects are assigned a number for privacy.</div>
       </div>
     </div>
 
@@ -60,7 +66,7 @@
     </div>
   
   <!-- guage chart-->
-    <div class="col-md-5">
+    <div class="col-md-4">
       <div id="gauge"></div>
     </div>
     </div>

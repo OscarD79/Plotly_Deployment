@@ -1,1 +1,7 @@
-/* my css style sheet */
+
+.jumbotron {
+    color: rgb(238, 246, 13);
+    background-image: url("../images/samples.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
